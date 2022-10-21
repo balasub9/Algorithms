@@ -2,13 +2,13 @@
  * Author    : Sanjay balasubramanian
  * Date      : 2022-10-20
  * Problem   : Basic Programming 2
- * Run time  : 0.18 s
- * test case : 2/2
+ * Run time  : 0.96 s
+ * test case : 25/25
+ * language  : Java
  * Source    : Kattis
  * Email     : balasub9@buffalo.edu
  * github    : https://github.com/balasub9/Algorithms
  */
-
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -21,16 +21,12 @@ public class basicprogramming2 {
     // Read the inputs and list of integer
     String[] inputs = br.readLine().split("\\s+", 2);
     String[] numbers = br.readLine().split("\\s+");
-
     final int n = Integer.parseInt(inputs[0]);
     final int actionRequired = Integer.parseInt(inputs[1]);
-
     int[] allNumbers = new int[n];
-
     //Parse all the input string to  integer and store it in a array
     for (int i = 0; i < n; i++)
       allNumbers[i] = Integer.parseInt(numbers[i]);
-
     //Sorting the array is common theme to all sub problems
     Arrays.sort(allNumbers);
     switch (actionRequired) {
