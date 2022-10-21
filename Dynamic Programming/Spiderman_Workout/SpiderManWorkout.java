@@ -1,8 +1,9 @@
 /*
 * Author    : Sanjay balasubramanian
-* Date      : 2022-10-20 23:37:13
+* Date      : 2022-10-20 
 * Problem   : Spiderman's workout
 * Run time  : 0.18 s
+* language  : Java 
 * test case : 2/2
 * Source    : Kattis
 * Email     : balasub9@buffalo.edu
