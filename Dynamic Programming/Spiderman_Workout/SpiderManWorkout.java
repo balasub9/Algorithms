@@ -1,3 +1,15 @@
+/*
+* Author    : Sanjay balasubramanian
+* Date      : 2022-10-20 23:37:13
+* Problem   : Spiderman's workout
+* Run time  : 0.18 s
+* test case : 2/2
+* Source    : Kattis
+* Email     : balasub9@buffalo.edu
+* github    : https://github.com/balasub9/Algorithms
+*/
+
+
 import java.util.*;
 import java.lang.*;
 import java.io.*;
